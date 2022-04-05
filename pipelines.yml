@@ -13,8 +13,8 @@ pipelines:
         configuration:
           affinityGroup: debain 
           priority: 0
-          timeoutSeconds: 50000
-          #timeoutSeconds: 20000
+          #timeoutSeconds: 50000
+          timeoutSeconds: 20000
 #           nodePool: ubuntu_16
           environmentVariables:
             env1: value1
