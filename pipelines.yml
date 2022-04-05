@@ -2,8 +2,8 @@ resources:
   - name: repo_vijay
     type: GitRepo
     configuration:
-      gitProvider: vijay_github
-      path: vijayreddy1991/jfrog
+      gitProvider: myGithub
+      path: RjSH1/jfrog-1
       
 pipelines:
   - name: jfrog_pipeline
